@@ -1,2 +1,13 @@
-<h1>StaticPages#help</h1>
-<p>Find me in app/views/static_pages/help.html.erb</p>
+<h1>Random password generator</h1>
+<p>(example2)</p>
+
+
+<%= pass = "" %>
+<div>
+  <%= form_tag(controller: "static_pages", action: "example2", remote: true) do %>
+  <div style="float:left"><div><%= number_field_tag :quantity, 8, min: 4, max: 24 %></div>
+       <div><%= submit_tag "Generate" %></div>
+  </div>
+  <div style="float: left"><%= text_area_tag(:password_string, @r, size: "24x1") %></div>
+<% end %>
+</div>

@@ -29,6 +29,7 @@ gem 'savon', '~> 2.0'
 gem 'nokogiri'
 gem 'less-rails-bootstrap'
 gem 'therubyracer'
+#gem 'formtastic'
 #gem 'htmlentities'
 
 # Use ActiveModel has_secure_password

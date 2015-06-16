@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'static_pages/example1'
 
   get 'static_pages/example2'
+  post 'static_pages/example2'
 
   get 'static_pages/example3'
 
